@@ -1,0 +1,9 @@
+#!/bin/bash
+cd /home/juren/Projects/GB/Extended
+~/anaconda2/bin/python /home/juren/Projects/GB/Extended/get-gb-data-1k.py 
+~/anaconda2/bin/python /home/juren/Projects/GB/Extended/get-gb-data-2k.py
+sed -i '1d' $(ls -ABrt1 GB-2K* | tail -n1)
+a=$(ls -ABrt1 GB-1K* | tail -n1)
+b=$(ls -ABrt1 GB-2K* | tail -n1)
+c=$(echo $b|sed 's/-2K//')
+cat $a $b > /home/juren/Projects/GB/Data/$c

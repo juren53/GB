@@ -1,0 +1,7 @@
+#!/bin/bash
+
+file=$(ls -t GB* | head -1)
+
+touch $file
+
+echo Touched $file
