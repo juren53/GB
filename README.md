@@ -1,6 +1,6 @@
 # GB
 GB data analysis
 #----------------------------------------------------------------------------
-#    Front End Menu for GB Analysis Framework
+#    GB Analysis Framework
 #    Updated:  Tue 20 Sep 2016 09:55:51 AM CDT 
 #----------------------------------------------------------------------------
