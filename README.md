@@ -9,5 +9,5 @@
 <br>
 #----------------------------------------------------------------------------
 <p>
-a series of python programs that report on the hourly data files downloaded from
+a series of python programs that report on the hourly CSV data files downloaded from
 the GB website.
